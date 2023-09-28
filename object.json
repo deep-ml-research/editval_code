@@ -1,0 +1,543 @@
+
+
+
+{
+    "bench":
+    {
+        "100166": {
+            "object_addition": {"from": [""], "to": ["bag", "cup", "ball", "books", "shoes"]}, 
+            "positional_addition": {"from": [""], "to": ["bag below", "bag on top", "cup below", "ball on top", "books below", "books on top", "shoes below", "shoes on top"]}
+        },
+        "122105": {
+            "object_addition": {"from": [""], "to": ["bag", "cup", "ball", "books", "shoes"]}, 
+            "positional_addition": {"from": [""], "to": ["bag below", "bag on top", "cup below", "ball on top", "books below", "books on top", "shoes below", "shoes on top"]},
+            "color": {"from": [""], "to": ["blue", "green", "black", "yellow"]}
+        },
+        "198176": {
+            "object_addition": {"from": [""], "to": ["bag", "cup", "ball", "books", "shoes"]}, 
+            "positional_addition": {"from": [""], "to": ["bag below", "bag on top", "cup below", "ball on top", "books below", "books on top", "shoes below", "shoes on top"]}
+        },
+        "107188": {
+            "object_addition": {"from": [""], "to": ["bag", "cup", "ball", "books", "shoes"]}, 
+            "positional_addition": {"from": [""], "to": ["bag below", "bag on top", "cup below", "ball on top", "books below", "books on top", "shoes below", "shoes on top"]},
+            "texture": {"from": [""], "to": ["steel", "leather"]}
+        }, 
+        "151300": {
+            "object_addition": {"from": [""], "to": ["bag", "cup", "ball", "books", "shoes"]}, 
+            "positional_addition": {"from": [""], "to": ["bag below", "bag on top", "bag to right", "cup below", "cup on top", "ball to right", "ball on top", "books below", "books to right", "books on top", "shoes below", "shoes on top", "shoes to right"]}
+        }, 
+        "240698": {
+            "object_addition": {"from": [""], "to": ["bag", "cup", "ball", "books", "shoes"]}, 
+            "positional_addition": {"from": [""], "to": ["bag below", "bag on top", "bag to right", "cup below", "cup on top", "ball to right", "ball on top", "books below", "books to right", "books on top", "shoes below", "shoes on top", "shoes to right"]},
+            "texture": {"from": [""], "to": ["steel", "leather"]}
+        }
+
+    },
+
+    "pizza": 
+    {
+        "113199":{
+            "object_addition": {"from": [""], "to": ["wine glass", "cake", "water jug"]},
+            "positional_addition": {"from": [""], "to": ["wine glass to left", "cake to left", "water jug to left"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["square", "heart-shaped", "oval", "rectangular"]},
+            "alter_parts": {"from": [""], "to": ["add tomato toppings", "add jelly beans toppings"]}
+        },
+
+        "113513":{
+            "object_addition": {"from": [""], "to": ["wine glass", "cake", "water jug"]},
+            "positional_addition": {"from": [""], "to": ["wine glass to left", "cake to left", "water jug to left"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["square", "heart-shaped", "oval", "rectangular"]},
+            "alter_parts": {"from": [""], "to": ["add tomato toppings", "add jelly beans toppings"]}
+        },
+
+        "250614":{
+            "object_addition": {"from": [""], "to": ["wine glass", "cake", "water jug"]},
+            "positional_addition": {"from": [""], "to": ["wine glass to left", "cake to left", "water jug to left"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["square", "heart-shaped", "oval", "rectangular"]},
+            "alter_parts": {"from": [""], "to": ["add tomato toppings", "add jelly beans toppings"]}
+        },
+
+        "137938":{
+            "object_addition": {"from": [""], "to": ["wine glass", "cake", "water jug"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["square", "heart-shaped", "oval", "rectangular"]}
+        },
+
+        "29982":{
+            "object_addition": {"from": [""], "to": ["wine glass", "cake", "water jug"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["square", "heart-shaped", "oval", "rectangular"]}
+        }
+
+    },
+
+    "cup":{
+        "322369": {
+            "object_addition": {"from": [""], "to": ["tray", "kettle", "napkins", "saucer"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "object_replacement":{"from": ["cup"], "to": ["wine glass"]},
+            "style": {"from": [""], "to": ["Minimalism", "Art Nouveau Modern"]}
+
+        },
+
+        "272694":{
+            "object_addition": {"from": [""], "to": ["tray", "kettle", "napkins", "saucer"]}, 
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["mug", "expresso cup", "tumbler", "tea cup"]},
+            "positional_addition": {"from": [""], "to": ["tray to right", "kettle to right", "napkins to right", "saucer to right"]},
+            "object_replacement":{"from": ["cup"], "to": ["wine glass"]},
+            "style": {"from": [""], "to": ["Minimalism", "Art Nouveau Modern"]}
+        }, 
+
+        "321852":{
+            "object_addition": {"from": [""], "to": ["tray", "kettle", "napkins", "saucer"]}, 
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["mug", "expresso cup", "tumbler"]},
+            "positional_addition": {"from": [""], "to": ["tray to right", "kettle to right", "napkins to right", "saucer to right"]},
+            "object_replacement":{"from": ["cup"], "to": ["wine glass"]},
+            "style": {"from": [""], "to": ["Minimalism", "Art Nouveau Modern"]}
+
+        },
+
+        "97264":{
+            "object_addition": {"from": [""], "to": ["tray", "kettle", "napkins", "saucer"]}, 
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["mug", "expresso cup", "tumbler"]},
+            "positional_addition": {"from": [""], "to": ["tray to right", "kettle to right", "napkins to right", "saucer to right"]},
+            "object_replacement":{"from": ["cup"], "to": ["wine glass"]},
+            "style": {"from": [""], "to": ["Minimalism", "Art Nouveau Modern"]}
+
+        },
+
+        "411881":{
+            "object_addition": {"from": [""], "to": ["tray", "kettle", "napkins", "saucer"]}, 
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["mug", "tea cup", "tumbler"]},
+            "object_replacement":{"from": ["cup"], "to": ["wine glass"]},
+            "style": {"from": [""], "to": ["Minimalism", "Art Nouveau Modern"]}
+        }, 
+
+        "353427":{
+            "object_addition": {"from": [""], "to": ["tray", "kettle", "napkins", "saucer"]}, 
+            "size": {"from": [""], "to": ["small", "large"]},
+            "object_replacement":{"from": ["cup"], "to": ["wine glass"]},
+            "style": {"from": [""], "to": ["Minimalism", "Art Nouveau Modern"]}
+        }
+
+    },
+
+    "dog":{
+        "11635":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "action": {"from": [""], "to": ["stand"]},
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "position_replacement": {"from": ["right"], "to": ["left"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}     
+        },
+        "113168":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "alter_parts": {"from": [""], "to": ["add sweater", "add tie"]},
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}     
+        },
+        "119320":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "texture": {"from": [""], "to": ["spotted", "furry"]},
+            "viewpoint": {"from": ["front"], "to": ["side", "top"]},
+            "action": {"from": [""], "to": ["lay", "stand"]},
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "position_replacement": {"from": ["right"], "to": ["left"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}       
+        },
+        "365519":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "color": {"from": [""], "to": ["red", "green", "blue"]},
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}       
+        },
+        "322945":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "viewpoint": {"from": ["front"], "to": ["side", "top"]},
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}       
+        },
+        "1025":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "object_replacement":{"from": ["dog"], "to": ["cat"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}                            
+        }
+    },
+ 
+    "stop_sign":{
+        "135113":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["circle", "square", "upside down triangle"]},
+            "position_replacement": {"from": ["right"], "to": ["left", "center"]}
+        },
+
+        "26162":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["circle", "square", "upside down triangle"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]}
+        },
+
+        "242940":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["circle", "square", "upside down triangle"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]}
+        },
+
+        "430325": {
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["circle", "square", "upside down triangle"]}
+        },
+
+        "197090":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["circle", "square", "upside down triangle"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]}
+        },
+
+        "301875":{
+            "size": {"from": [""], "to": ["small", "large"]},
+            "shape": {"from": [""], "to": ["circle", "square", "upside down triangle"]}
+        }
+    },
+
+    "sink":{
+        "100863":{
+            "object_addition": {"from": [""], "to": ["coffee mug", "tissue roll", "toothbrush"]},
+            "positional_addition": {"from": [""], "to": ["coffee mug to right", "tissue roll to right", "toothbrush to right"]}
+        },
+        "134389":{
+            "object_addition": {"from": [""], "to": ["coffee mug", "tissue roll", "toothbrush"]},
+            "positional_addition": {"from": [""], "to": ["coffee mug to right", "tissue roll to right", "toothbrush to right"]}
+        },
+        "115087":{
+            "object_addition": {"from": [""], "to": ["coffee mug", "tissue roll", "toothbrush"]}
+        },
+        "107259":{
+            "object_addition": {"from": [""], "to": ["coffee mug", "tissue roll", "toothbrush"]}
+        }
+    },
+
+    "person":{
+        "451987":{
+            "object_addition": {"from": [""], "to": ["hat", "cap"]},
+            "positional_addition": {"from": [""], "to": ["ladder to right"]},
+            "background": {"from": ["house"], "to": ["store", "forest", "street"]}
+        },
+
+        "392601":{
+            "object_addition": {"from": [""], "to": ["bird", "ladder"]},
+            "positional_addition": {"from": [""], "to": ["ladder to right", "bird to left"]},
+            "background": {"from": [""], "to": ["house", "store", "forest", "street"]}
+        }, 
+        
+        "89103":{
+            "object_addition": {"from": [""], "to": ["sunglasses", "watch"]}
+        },
+
+        "246839":{
+            "object_addition": {"from": [""], "to": ["sunglasses", "watch", "cap"]},
+            "positional_addition": {"from": [""], "to": ["ladder to right", "bag to right", "flowers to right"]}
+        },
+        "473103":{
+            "action": {"from": ["jump"], "to": ["stand"]},
+            "background": {"from": [""], "to": ["house", "store", "forest", "street"]}
+        }, 
+        "45392":{
+            "action": {"from": ["stand"], "to": ["hit"]},
+            "background": {"from": [""], "to": ["house", "store", "forest", "street"]}
+        },
+        "513188":{
+            "action": {"from": ["hit"], "to": ["stand"]}
+        },
+        "385588":{
+            "action": {"from": ["stand"], "to": ["run", "jump"]},
+            "background": {"from": [""], "to": ["house", "store", "forest", "street"]}
+        },
+        "185262":{
+            "action": {"from": ["stand"], "to": ["sit"]},
+            "background": {"from": ["house"], "to": ["store", "forest", "street"]}
+        },
+        "158044":{
+            "action": {"from": ["stand"], "to": ["sit"]}
+        }
+    },
+    
+    "backpack":{
+        "94926":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]}
+        },
+
+        "396542":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]}
+        },
+
+        "408248":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]}
+        },
+
+        "175227":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+
+        "9679": {
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]}
+        },
+
+        "315338":{
+            "shape": {"from": [""], "to": ["duffel", "messenger", "hydration"]},
+            "color":{"from": [""], "to": ["red", "blue", "orange"]}
+        },
+        "163866":{
+            "color":{"from": [""], "to": ["gray", "blue", "orange"]}
+        }       
+    },
+
+    "handbag":{
+        "529668":{
+            "shape": {"from": [""], "to": ["tote", "clutch", "cross body", "hobo"]},
+            "style": {"from": [""], "to": ["Cubism"]}
+        },
+
+        "208815":{
+            "shape": {"from": [""], "to": ["tote", "clutch", "cross body", "hobo"]},
+            "style": {"from": [""], "to": ["Cubism"]}
+        },
+
+        "10546":{
+            "shape": {"from": [""], "to": ["tote", "clutch", "cross body", "hobo"]},
+            "style": {"from": [""], "to": ["Cubism"]}
+        },
+
+        "365471":{
+            "shape": {"from": [""], "to": ["tote", "clutch", "cross body", "hobo"]},
+            "style": {"from": [""], "to": ["Cubism"]}
+        },
+
+        "497600":{
+            "shape": {"from": [""], "to": ["tote", "clutch", "cross body", "hobo"]},
+            "style": {"from": [""], "to": ["Cubism"]}
+        }
+    },
+
+    "airplane":{
+        "359278":{
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "viewpoint": {"from": ["side"], "to": ["rear", "front", "top"]}
+        },
+        "278565":{
+            "viewpoint": {"from": ["side"], "to": ["rear", "front", "top"]}
+        },
+        "131174":{
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "viewpoint": {"from": ["front"], "to": ["rear", "side", "top"]}
+        },
+        "336006":{
+            "viewpoint": {"from": ["bottom"], "to": ["rear", "side", "top", "front"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]}
+        }        
+    },
+
+    "boat":{
+        "311327":{
+            "color": {"from": [""], "to": ["red", "blue", "black", "yellow"]},
+            "background": {"from": [""], "to": ["forest", "desert", "street"]}
+        },
+        "49165":{
+            "color": {"from": [""], "to": ["red", "blue", "black", "yellow"]},
+            "background": {"from": [""], "to": ["forest", "desert", "street"]}
+        },
+        "491554":{
+            "color": {"from": [""], "to": ["red", "blue", "black", "yellow"]},
+            "background": {"from": [""], "to": ["forest", "desert", "street"]}
+        }
+    },
+
+    "bicycle":{
+        "79966":{
+            "texture": {"from": [""], "to": ["wooden", "plastic", "shiny silver"]},
+            "color": {"from": [""], "to": ["red", "green", "yellow", "blue", "black"]}
+        },
+        "453138":{
+            "texture": {"from": [""], "to": ["wooden", "plastic", "shiny silver"]},
+            "color": {"from": [""], "to": ["red", "green", "yellow", "blue", "black"]}
+        }
+    },
+    "couch":{
+        "368321":{
+            "texture": {"from": [""], "to": ["metallic", "cheese", "wooden"]},
+            "background": {"from": ["house"], "to": ["grassland", "street", "store"]}
+        },
+        "147856":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "background": {"from": ["house"], "to": ["grassland", "street", "store"]}
+        },
+        "85856":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]},
+            "background": {"from": ["house"], "to": ["grassland", "street", "store"]}
+        },
+        "527599":{
+            "shape": {"from": [""], "to": ["orange", "avocado"]}
+        }        
+    },
+
+    "chair":{
+        "196611":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture": {"from": [""], "to": ["metallic", "wooden"]},
+            "viewpoint": {"from": [""], "to": ["front"]}
+        },
+
+        "381384":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "texture":{"from": [""], "to": ["metallic",  "leather"]}
+        },
+
+        "437231":{
+            "texture": {"from": [""], "to": ["metallic", "plastic"]},
+            "viewpoint": {"from": [""], "to": ["top", "side"]}
+        },
+
+        "182995":{
+            "size": {"from": [""], "to": ["small", "large"]}
+        },
+
+        "15567":{
+            "object_replacement": {"from": ["chair"], "to": ["bench"]},
+            "size": {"from": [""], "to": ["small", "large"]},
+            "viewpoint": {"from": [""], "to": ["top", "side"]}
+        }              
+
+    },
+
+    "donut":{
+        "475236":{
+            "color": {"from": [""], "to": ["red", "brown",  "yellow"]},
+            "alter_parts": {"from": [""], "to": ["add chocolate toppings", "add fruit pieces toppings"]},
+            "position_replacement": {"from": ["right"], "to": ["left", "center"]}
+        },
+        "557137":{
+            "color": {"from": [""], "to": ["red", "brown",  "yellow"]},
+            "alter_parts": {"from": [""], "to": ["add chocolate toppings", "add fruit pieces toppings"]},
+            "position_replacement": {"from": ["left"], "to": ["right", "center"]}
+        },
+        "82083":{
+            "color": {"from": [""], "to": ["red", "brown",  "yellow"]}
+        }        
+    },
+
+    "car":{
+        "566395":{
+            "viewpoint": {"from": ["rear"], "to": ["side", "front"]},
+            "background": {"from": ["street"], "to": ["grassland", "desert"]}
+        },
+        "163897":{
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "viewpoint": {"from": ["front"], "to": ["side", "rear", "top"]},
+            "background": {"from": ["grassland"], "to": ["street", "desert"]},
+            "object_replacement":{"from": ["car"], "to": ["motorcycle", "pickup truck"]}
+        },
+        "349101":{
+            "object_replacement":{"from": ["car"], "to": ["motorcycle", "pickup truck"]}
+        },
+
+        "414624":{
+            "texture": {"from": [""], "to": ["plastic", "shiny silver"]},
+            "object_replacement":{"from": ["car"], "to": ["motorcycle", "pickup truck"]},
+            "background": {"from": ["street"], "to": ["grassland", "desert"]}
+
+        }  
+
+    },
+
+    "apple":{
+        "434201":{
+            "color": {"from": [""], "to": ["green", "yellow", "golden"]},
+            "object_replacement":{"from": ["apple"], "to": ["orange"]},
+            "texture":{"from": [""], "to": ["leopard spots", "zebra stripes"]},
+            "style": {"from": [""], "to": ["Cubism", "Pointillism"]}
+        },
+
+        "352377":{
+            "color": {"from": [""], "to": ["red", "blue", "golden"]},
+            "style": {"from": [""], "to": ["Cubism", "Pointillism"]}
+        },
+
+        "548957":{
+            "color": {"from": [""], "to": ["orange", "blue", "green"]},
+            "object_replacement": {"from": ["apple"], "to": ["orange"]},
+            "style": {"from": [""], "to": ["Cubism", "Pointillism"]}
+        }        
+    },
+    
+    "cat":{
+        "180287":{
+            "viewpoint": {"from": ["side"], "to": ["front"]},
+            "object_replacement":{"from": ["cat"], "to": ["dog"]},
+            "background": {"from": ["house"], "to": ["grassland", "street"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}     
+        },
+
+        "155707":{
+            "viewpoint": {"from": ["front"], "to": ["side"]},
+            "object_replacement": {"from": ["cat"], "to": ["dog"]},
+            "action": {"from": ["sit"], "to": ["lay"]},
+            "texture": {"from": [""], "to": ["tabby", "furry"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}      
+        },
+
+        "409652":{
+            "viewpoint": {"from": ["front"], "to": ["side"]},
+            "object_replacement": {"from": ["cat"], "to": ["dog"]},
+            "action": {"from": ["sit"], "to": ["lay"]},
+            "texture": {"from": [""], "to": ["tabby", "furry"]},
+            "position_replacement": {"from": ["left"], "to": ["right", "center"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}      
+        },
+
+        "442457":{
+            "action": {"from": ["lay"], "to": ["sit"]},
+            "background": {"from": ["house"], "to": ["forest", "desert"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}     
+        },
+
+        "516194":{
+            "action": {"from": ["stand"], "to": ["sit"]},
+            "viewpoint": {"from": ["rear"], "to": ["front", "side"]},
+            "position_replacement": {"from": ["center"], "to": ["left", "right"]},
+            "style": {"from": [""], "to": ["Realism", "Fauvism"]}      
+        }                        
+    },
+    
+    "potted_plant":{
+        "195671":{
+            "background": {"from": ["house"], "to": ["forest", "desert", "grassland"]},
+            "style": {"from": [""], "to": ["Art Nouveau Modern", "Pointillism"]}
+        },
+
+        "546674":{
+            "background": {"from": ["house"], "to": ["forest", "desert", "grassland"]},
+            "style": {"from": [""], "to": ["Art Nouveau Modern", "Pointillism"]}
+        },
+
+        "471865":{
+            "style": {"from": [""], "to": ["Art Nouveau Modern", "Pointillism"]}
+        }        
+    }    
+
+}
